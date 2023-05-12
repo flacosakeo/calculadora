@@ -1,0 +1,62 @@
+
+.container{
+    border:solid 1px yellow; 
+    border-radius: 5px;
+    box-shadow: 10px 10px 50px grey ;
+    width:153px; 
+    padding: 5px; 
+    align-items: center;
+    margin: 50px;
+    background-color: rgba(0, 0, 0);
+    color: white;
+    
+}
+
+output{
+    position: absolute;
+    width: 8.3%;
+    height: 3%;
+    border: solid 1px yellow;
+    font-size: 22px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    overflow:hidden;
+    text-align: right;
+}
+
+button{    
+    width: 35px;
+    height: 30px;
+    background-color: black;
+    border-color: yellow;
+    color: white;
+    
+}
+
+#R3, #P3, #log, #sen, #tan, #cos, #asen, #csc, #cot{    
+    position:fixed;
+    visibility:hidden;
+    margin-left: 5px;
+    background-color: grey;
+    border-color:yellow;
+}
+
+#log, #sen, #tan, #cos, #asen, #csc, #cot{
+    font-size: 10px;
+}
+
+#sen, #tan, #cos{
+    margin-left: 45px;
+}
+
+#asen, #csc, #cot{
+    margin-left: 85px;
+}
+
+p{
+    font-size: 14px;
+    cursor:default;
+}
+p:hover{
+    color:red;
+}

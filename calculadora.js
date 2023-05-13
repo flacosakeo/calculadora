@@ -259,11 +259,11 @@ document.getElementById("=").addEventListener("click",()=>{
     }
 })
 document.getElementById("cambio").addEventListener("click",()=>{
-    if (document.getElementById("cambio").value=="Estandar"){
+    
+    if (document.getElementById("cambio").innerHTML=="Ver Calculadora Científica"){
         document.getElementById("container").style.width="272px";
         document.getElementById("res").style.width="272px";
-        document.getElementById("cambio").innerHTML="Ver Calculadora Científica";
-        document.getElementById("cambio").value="Cientifica";        
+        document.getElementById("cambio").innerHTML="Ver Calculadora Estándar";
         document.getElementById("R3").style.visibility="visible";
         document.getElementById("P3").style.visibility="visible";
         document.getElementById("log").style.visibility="visible";
@@ -276,8 +276,7 @@ document.getElementById("cambio").addEventListener("click",()=>{
     }else{
         document.getElementById("container").style.width="153px";
         document.getElementById("res").style.width="153px";
-        document.getElementById("cambio").innerHTML="Ver Calculadora Estándar";
-        document.getElementById("cambio").value="Estandar";        
+        document.getElementById("cambio").innerHTML="Ver Calculadora Científica";
         document.getElementById("R3").style.visibility="hidden";
         document.getElementById("P3").style.visibility="hidden";
         document.getElementById("log").style.visibility="hidden";
